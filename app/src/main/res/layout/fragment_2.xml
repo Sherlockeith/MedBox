@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    tools:context=".module.Fragment2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+</LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/prescription"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/txt">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="44dp"
+        android:text="Prescription updates"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/update"
+        android:scaleType="center">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="120dp"
+        android:text="Panadol"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="120dp"
+        android:text="Change to 1 pill per dose"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="normal">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="120dp"
+        android:text="Note"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="120dp"
+        android:text="Do not take with Aspirine!"
+        android:textSize="15dp"
+        android:textColor="@color/red"
+        android:textStyle="normal">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/upbox"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/upbox">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="44dp"
+        android:text="Medcine Box updates"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/box"
+        android:scaleType="center">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="30dp"
+        android:text="10 minutes ago"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="italic">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="30dp"
+        android:text="Request for additional dosage"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="30dp"
+        android:text="Aspirin 3 pills"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="normal">
+    </TextView>
+</FrameLayout>

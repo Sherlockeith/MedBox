@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="loginbutton_textsize">20sp</dimen>
+    <dimen name="homebutton_textsize">34sp</dimen>
+    <dimen name="toolbar_textsize">18sp</dimen>
+    <dimen name="divideline">1dp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="rectify_form_label_width">150dp</dimen>
+    <dimen name="cardview_title_size">17sp</dimen>
+    <dimen name="cardview_title_margin_bottom">20dp</dimen>
+    <dimen name="cardview_padding">12dp</dimen>
+    <dimen name="cardview_margin">15dp</dimen>
+    <dimen name="item_cardview_margin">10dp</dimen>
+    <dimen name="size_login">15sp</dimen>    <dimen name="login_frame_center">183dp</dimen>
+    <dimen name="login_padding">10.8dp</dimen>
+    <dimen name="item_textSize">17sp</dimen>
+    <dimen name="bottom_textSize">13sp</dimen>
+    <dimen name="bottom_margin">150dp</dimen>
+    <dimen name="bottom_item_margin">30dp</dimen>
+    <dimen name="bottom_item_paddingHorizontal">15dp</dimen>
+    <dimen name="bottom_item_paddingVertical">8dp</dimen>
+    <dimen name="start">10dp</dimen>
+    <dimen name="size_login1">10sp</dimen>
+</resources>

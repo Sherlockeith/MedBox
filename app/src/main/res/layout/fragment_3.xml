@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.Fragment3"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Refresh"
+        android:id="@+id/refresh"
+        android:background="@android:color/transparent"
+        android:textSize="@dimen/size_login">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-35dp"
+        android:src="@drawable/refresh">
+    </ImageView>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginLeft="@dimen/bottom_item_margin"
+        android:layout_marginRight="@dimen/bottom_item_margin"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp">
+    </ListView>
+    <!--    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="" />-->
+
+</LinearLayout>
